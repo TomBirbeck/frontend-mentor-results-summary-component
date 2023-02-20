@@ -36,10 +36,14 @@ Here is my solution:
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/results-summary-component-desktop-CKi8bF5wav)
 - Live Site URL: [Live site](https://tombirbeck.github.io/frontend-mentor-results-summary-component/)
 
 ## My process
+
+My initial step was to remove any padding and margin applied to the page and set the box-sizing to border-box in order to enable me to control the element sizes.
+I then created a framework of the HTML elements and styled with CSS to recreate the way the page looks.
+When I was happy with the layout I used a JavaScript file to fetch the data.json file. I used query selectors to 'grab' the HTML elements I needed and created functions to iterate over the information in the data.json file and inject the correct information into the elements on the page.
 
 ### Built with
 
