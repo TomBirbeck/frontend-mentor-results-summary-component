@@ -16,7 +16,8 @@
     --violet-blue: hsla(256, 72%, 46%, 1);
     --persian-blue: hsla(241, 72%, 46%, 0);
     --white: hsl(0, 0%, 100%);
-    --pale-blue: hsl(221, 100%, 96%);
+    --pale-blue: hsla(221, 100%, 96%, 0.8);
+    --pale-blue-two: hsla(221, 100%, 96%, 0.5);
     --light-lavender: hsla(241, 100%, 89%, 0.3);
     --dark-gray-blue: hsl(224, 30%, 27%);
 }
@@ -84,7 +85,7 @@ main {
 }
 
 .score-subtext {
-    color: var(--pale-blue);
+    color: var(--pale-blue-two);
 }
 
 .result-message-header {
@@ -126,7 +127,6 @@ main {
 .list-item {
     padding: 1rem 0.5rem;
     border-radius: 0.5rem;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
 }
