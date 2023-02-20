@@ -30,10 +30,6 @@
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
-body {
-    background-color: black;
-}
-
 main {
     height: 95vh;
     display: grid;
@@ -46,7 +42,8 @@ main {
     background-color: var(--white);
     border-radius: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem hsla(252, 100%, 67%, 0.1);;
 }
 
 .results-section {
@@ -113,6 +110,7 @@ main {
     width: 100%;
     margin-bottom: 1.5rem;
     text-align: left;
+    color: var(--dark-gray-blue);
 }
 
 .summary-list {
